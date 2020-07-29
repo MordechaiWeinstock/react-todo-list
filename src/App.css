@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.wrapper {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-image: url('https://t4.ftcdn.net/jpg/02/33/61/69/240_F_233616900_ZPRGzFB0vWDqYttx5rA27r7GNkuOeg03.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+.list-wrapper {
+  max-height: 500px;
+  overflow-y: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form {
+  display: flex;
+  padding: 10px;
+}
+
+.input {
+  margin-right: 10px;
+  border: none;
+  flex-grow: 1;
+  height: 2em;
+}
+
+.submit-button {
+  border: none;
+  background-color: yellow;
+  flex-grow: 1;
+  height: 2em
+}
+
+.frame {
+  width: 40vw;
+  max-width: 400px;
+}
+
+.card {
+  border-top: 1px dotted black;
+  border-bottom: 1px dotted black;
+}
+
+.delete {
+  width: 1.5em;
+  height: 1.5em;
+  margin: 1em;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
 }
