@@ -1,4 +1,5 @@
 import React from 'react';
+import './SubmitForm.css';
 
 class SubmitForm extends React.Component {
   state = {

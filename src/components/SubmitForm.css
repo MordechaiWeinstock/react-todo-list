@@ -1,0 +1,13 @@
+.input {
+    margin-right: 10px;
+    border: none;
+    flex-grow: 1;
+    height: 2em;
+  }
+  
+  .submit-button {
+    border: none;
+    background-color: yellow;
+    flex-grow: 1;
+    height: 2em
+  }

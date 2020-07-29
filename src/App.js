@@ -19,6 +19,7 @@ class App extends React.Component {
   render () {
     return (
       <div className="wrapper">
+      <h1>Todo List</h1>
         <div className="card frame">
           <TodoList tasks={this.state.tasks} onDelete={this.handleDelete} />
           <SubmitForm onFormSubmit={this.handleSubmit} />

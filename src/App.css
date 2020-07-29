@@ -1,6 +1,7 @@
 .wrapper {
   min-height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background-image: url('https://t4.ftcdn.net/jpg/02/33/61/69/240_F_233616900_ZPRGzFB0vWDqYttx5rA27r7GNkuOeg03.jpg');
@@ -8,28 +9,17 @@
   background-size: cover;
 }
 
-.list-wrapper {
-  max-height: 500px;
-  overflow-y: auto;
+h1 {
+  width: 100%;
+  text-align: center;
+  color: yellow;
+  text-shadow: 2px 0 0 green, -2px 0 0 green, 0 2px 0 green, 0 -2px 0 green, 1px 1px green, -1px -1px 0 green, 1px -1px 0 green, -1px 1px 0 green;
+  font-size: 3em;
 }
 
 form {
   display: flex;
   padding: 10px;
-}
-
-.input {
-  margin-right: 10px;
-  border: none;
-  flex-grow: 1;
-  height: 2em;
-}
-
-.submit-button {
-  border: none;
-  background-color: yellow;
-  flex-grow: 1;
-  height: 2em
 }
 
 .frame {
@@ -40,15 +30,4 @@ form {
 .card {
   border-top: 1px dotted black;
   border-bottom: 1px dotted black;
-}
-
-.delete {
-  width: 1.5em;
-  height: 1.5em;
-  margin: 1em;
-}
-
-.list-item {
-  display: flex;
-  justify-content: space-between;
 }
